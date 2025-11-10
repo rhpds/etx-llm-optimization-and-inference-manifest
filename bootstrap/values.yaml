@@ -14,31 +14,31 @@ threeScale:
   startingCSV: 3scale-operator.v0.12.3
 
 cmsUpload:
-  repoURL: https://github.com/rhpds/etx-llmaas-gitops
+  repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
   targetRevision: main
   path: 3scale/cms-upload
 
 llmaas:
-  repoURL: https://github.com/rhpds/etx-llmaas-gitops
+  repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
   targetRevision: main
   path: model-serving
 
 delivery:
-  repoURL: https://github.com/rhpds/etx-llmaas-gitops
+  repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
   targetRevision: main
   path: delivery
 
 rhoaiConfig:
-  repoURL: https://github.com/rhpds/etx-llmaas-gitops
+  repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
   targetRevision: main
   path: rhoai-config
 
 agenticConfig:
-  repoURL: https://github.com/rhpds/etx-llmaas-gitops
+  repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
   targetRevision: main
   path: agentic
 
 webTerminal:
-  repoURL: https://github.com/rhpds/etx-llmaas-gitops
+  repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
   targetRevision: main
   path: web-terminal/operator/overlays/fast
