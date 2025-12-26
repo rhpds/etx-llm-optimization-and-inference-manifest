@@ -5,19 +5,6 @@
 deployer:
   domain: apps.cluster-guid.guid.sandbox.opentlc.com
 
-threeScale:
-  namespace: 3scale
-  repoURL: https://github.com/rhpds/ocp-cluster-addons
-  targetRevision: main
-  path: 3scale
-  channel: threescale-2.15
-  startingCSV: 3scale-operator.v0.12.5
-
-cmsUpload:
-  repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
-  targetRevision: main
-  path: 3scale/cms-upload
-
 llmaas:
   repoURL: https://github.com/rhpds/etx-llm-optimization-and-inference-manifest
   targetRevision: main
